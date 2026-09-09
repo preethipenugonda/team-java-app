@@ -5,7 +5,7 @@ pipeline {
     parameters {
         string(
             name: 'IMAGE_TAG',
-            defaultValue: '1.0',
+            defaultValue: '1.1',
             description: 'Docker image tag (example: 1.0, 1.1, 1.2)'
         )
     }
